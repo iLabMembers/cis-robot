@@ -24,6 +24,13 @@
                     <cleanupDaemonThreads>false</cleanupDaemonThreads>
                 </configuration>
             </plugin>
+            <plugin>
+              <artifactId>maven-compiler-plugin</artifactId>
+              <version>3.5</version>
+              <configuration>
+                <encoding>UTF-8</encoding>
+              </configuration>
+            </plugin>
         </plugins>
     </build>
     <dependencies>
