@@ -44,7 +44,7 @@
         <dependency>
             <groupID>com.squareup.okhttp3</groupId>
             <artifactId>okhttp</artifactId>
-            <version></version>
+            <version>4.10.0</version>
         </dependency>
     </dependencies>
 </project>
