@@ -2,34 +2,76 @@ import pandas as pd
 import numpy as np
 import requests
 import sys
+import json
+
 # pip install -U googlemaps
 import googlemaps
 import pprint # list型やdict型を見やすくprintするライブラリ
 
+def save_json(dict,PATH):
+    """
+    jsonに保存する関数
+    第一引数に辞書型を入れ，第二引数にパスの名前を入れる
+    """
+    with open(PATH, mode="w") as f:
+        d = json.dumps(dict)
+        f.write(d)
+
 args = sys.argv
+
+if len(args) <= 1:
+    sys.exit("pleace input API KEY!!!")
+
 key =  args[1] # 上記で作成したAPIキーを入れる
-# python googlemaps_api.py apiのkey
+# コマンド：python googlemaps_api.py apiのkey
 
 client = googlemaps.Client(key) #インスタンス生成
 
-geocode_result = client.geocode('船の科学館',language='ja' ) # 観光地の位置情報を検索
-loc_kan = geocode_result[0]['geometry']['location']# 観光地の軽度・緯度の情報のみ取り出す
+# 観光地の名前リストをCSVから抽出
+SightBasic_DF = pd.read_csv("data/20200731_日本科学未来館_SightBasic.csv")
+name_ls = list(SightBasic_DF["SightName"])
 
-pprint.pprint(geocode_result)
+#================================================================================================================
+#geocodeデータを保存
+res_geocode_dict = {}
+for name_i in name_ls:
+    geocode_result = client.geocode(name_i,language='ja' ) # 観光地の位置情報を検索
+    res_geocode_dict[name_i] = geocode_result
+#JSONとして出力
+GEOCODE_PATH = 'data/res_geocode.json'
+save_json(res_geocode_dict,GEOCODE_PATH)
 
+#================================================================================================================
+#日本科学未来館の周辺情報を取り出す(JSONに出力)
 miraikan_result = client.geocode('日本科学未来館',language='ja' ) # 東京未来館の位置情報を検索
-loc_mirai= geocode_result[0]['geometry']['location']# 東京未来館の軽度・緯度の情報のみ取り出す
+MIRAIKAN_PATH = 'data/res_miraikan.json'
+save_json(miraikan_result,MIRAIKAN_PATH)
+#================================================================================================================
+#各地点の周辺情報を保存(保留)
 
-pprint.pprint(miraikan_result)
+# place_result = client.places_nearby(location=loc_kan, radius=200, type='food',language='ja' ) #半径200m以内のレストランの情報を取得
+# pprint.pprint(place_result)
 
-place_result = client.places_nearby(location=loc_kan, radius=200, type='food',language='ja' ) #半径200m以内のレストランの情報を取得
+#================================================================================================================
+#場所の情報を保存
+res_place_info_dict = {}
+for name_i in name_ls:
+    place_informations = client.places(name_i,language='ja') # 観光地の位置情報を検索
+    res_place_info_dict[name_i] = place_informations
+#JSONとして出力
+PLACE_INFO_PATH = 'data/res_place_info.json'
+save_json(miraikan_result,PLACE_INFO_PATH)
 
-pprint.pprint(place_result)
+#================================================================================================================
+# 東京未来館から観光地まで移動方法・所要時間をを取得
+res_directions_info_dict = {}
+loc_miraikan = miraikan_result[0]["goemetry"]["location"] #日本未来館の緯度経度を取得
 
-place_informations= client.places("船の科学館",language= 'ja') # 観光地の具体的な情報を検索
-
-pprint.pprint(place_informations)
-
-place_directons= client.directions(origin=loc_mirai, destination=loc_kan,language= 'ja') # 東京未来館から観光地まで移動方法・所要時間をを取得
-
-pprint.pprint(place_directons)
+for name_i in name_ls:
+    trg_place_dict = res_geocode_dict[name_i]
+    trg_place_geocode = trg_place_dict[0]["goemetry"]["location"]
+    place_directons= client.directions(origin=loc_miraikan, destination=trg_place_geocode,language= 'ja') 
+    res_directions_info_dict[name_i] = place_directons
+#JSONとして出力
+PLACE_DIRECTIONS_PATH = 'data/res_directions_info.json'
+save_json(res_directions_info_dict,PLACE_DIRECTIONS_PATH)
