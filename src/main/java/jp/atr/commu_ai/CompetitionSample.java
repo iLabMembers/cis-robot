@@ -319,3 +319,4 @@ public class CompetitionSample implements IConversationTimerListener {
 		//sample.test();
 	}
 }
+//ookuma
