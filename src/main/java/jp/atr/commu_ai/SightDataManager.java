@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URISyntaxException;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -33,7 +34,7 @@ public class SightDataManager {
 		try {
 			URL url = CompetitionSample.class.getClassLoader().getResource(filePath);
 			FileInputStream file = new FileInputStream(new File(url.toURI()));
-			BufferedReader reader = new BufferedReader(new InputStreamReader(file, "SJIS"));
+			BufferedReader reader = new BufferedReader(new InputStreamReader(file, StandardCharsets.UTF_8));
 			String line;
 			int i = 0;
 			while ((line = reader.readLine()) != null) {
