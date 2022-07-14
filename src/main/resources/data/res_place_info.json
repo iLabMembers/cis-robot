@@ -1,1 +1,384 @@
-[{"address_components": [{"long_name": "\uff16", "short_name": "\uff16", "types": ["premise"]}, {"long_name": "\uff13", "short_name": "\uff13", "types": ["political", "sublocality", "sublocality_level_4"]}, {"long_name": "\uff12\u4e01\u76ee", "short_name": "\uff12\u4e01\u76ee", "types": ["political", "sublocality", "sublocality_level_3"]}, {"long_name": "\u9752\u6d77", "short_name": "\u9752\u6d77", "types": ["political", "sublocality", "sublocality_level_2"]}, {"long_name": "\u6c5f\u6771\u533a", "short_name": "\u6c5f\u6771\u533a", "types": ["locality", "political"]}, {"long_name": "\u6771\u4eac\u90fd", "short_name": "\u6771\u4eac\u90fd", "types": ["administrative_area_level_1", "political"]}, {"long_name": "\u65e5\u672c", "short_name": "JP", "types": ["country", "political"]}, {"long_name": "135-0064", "short_name": "135-0064", "types": ["postal_code"]}], "formatted_address": "\u65e5\u672c\u3001\u3012135-0064 \u6771\u4eac\u90fd\u6c5f\u6771\u533a\u9752\u6d77\uff12\u4e01\u76ee\uff13\u2212\uff16", "geometry": {"location": {"lat": 35.6193359, "lng": 139.7763995}, "location_type": "ROOFTOP", "viewport": {"northeast": {"lat": 35.6210863802915, "lng": 139.7775989802915}, "southwest": {"lat": 35.6183884197085, "lng": 139.7749010197085}}}, "partial_match": true, "place_id": "ChIJz_149P6JGGARoImMn3NlsfY", "plus_code": {"compound_code": "JQ9G+PH \u65e5\u672c\u3001\u6771\u4eac\u90fd\u6c5f\u6771\u533a", "global_code": "8Q7XJQ9G+PH"}, "types": ["establishment", "museum", "point_of_interest", "tourist_attraction"]}]
+{
+    "お台場海浜公園": {
+        "html_attributions": [],
+        "results": [
+            {
+                "business_status": "OPERATIONAL",
+                "formatted_address": "日本、〒135-0091 東京都港区台場１丁目４",
+                "geometry": {
+                    "location": {
+                        "lat": 35.6300488,
+                        "lng": 139.7756912
+                    },
+                    "viewport": {
+                        "northeast": {
+                            "lat": 35.63933055,
+                            "lng": 139.7830329
+                        },
+                        "southwest": {
+                            "lat": 35.62208555,
+                            "lng": 139.7654149
+                        }
+                    }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                "icon_background_color": "#4DB546",
+                "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                "name": "お台場海浜公園",
+                "opening_hours": {
+                    "open_now": true
+                },
+                "photos": [
+                    {
+                        "height": 1200,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/112584010063878420362\">伊藤友晴</a>"
+                        ],
+                        "photo_reference": "AeJbb3fWYRcq8TTvpVuiwmbUNK9FUBUZCz_HeRnOr2K9ydbGBKfG2h9M0Od4NmNs2x8Gt0YjcFzyvNtg55hao4SVjD-ZqShx0QIbTTgBUOsx-HsJKOW2wdsaMtu1IbzmcWU_vLRK8T3WVsxkIMCAylhdGxf55QjBJNakXTeL-vRY6H5kNdjZ",
+                        "width": 1600
+                    }
+                ],
+                "place_id": "ChIJ18IK6x2KGGARKTc2yLS-030",
+                "plus_code": {
+                    "compound_code": "JQJG+27 港区、東京都",
+                    "global_code": "8Q7XJQJG+27"
+                },
+                "rating": 4.3,
+                "reference": "ChIJ18IK6x2KGGARKTc2yLS-030",
+                "types": [
+                    "park",
+                    "tourist_attraction",
+                    "point_of_interest",
+                    "establishment"
+                ],
+                "user_ratings_total": 9931
+            }
+        ],
+        "status": "OK"
+    },
+    "そなエリア東京": {
+        "html_attributions": [],
+        "results": [],
+        "status": "ZERO_RESULTS"
+    },
+    "フジテレビ本社ビル": {
+        "html_attributions": [],
+        "results": [
+            {
+                "business_status": "OPERATIONAL",
+                "formatted_address": "日本、〒135-0091 東京都港区台場２丁目４−８",
+                "geometry": {
+                    "location": {
+                        "lat": 35.6267537,
+                        "lng": 139.7744497
+                    },
+                    "viewport": {
+                        "northeast": {
+                            "lat": 35.62795817989272,
+                            "lng": 139.7759194298927
+                        },
+                        "southwest": {
+                            "lat": 35.62525852010727,
+                            "lng": 139.7732197701073
+                        }
+                    }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                "icon_background_color": "#13B5C7",
+                "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+                "name": "FCGビル",
+                "photos": [
+                    {
+                        "height": 3432,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/109020163245616386688\">A Google User</a>"
+                        ],
+                        "photo_reference": "AeJbb3fP8kpp7Z_T5BIae8SxbA1vq6BSWkzYBsLcuZnnfxMuMDFPgmhh3NuB_vSPUbUHjMs6zE2xcnrwUqQJIjz6iYzKzh71qhO0O3N7J_vKT-UtEUowwI3faNJFPDu-XlmOY3KgsjZtrufWJef4YAeU4mURxK8nWnB9N427IMf8sLwifZQV",
+                        "width": 4576
+                    }
+                ],
+                "place_id": "ChIJw3qKQduJGGARWr0DnXUAjV8",
+                "plus_code": {
+                    "compound_code": "JQGF+PQ 港区、東京都",
+                    "global_code": "8Q7XJQGF+PQ"
+                },
+                "rating": 0,
+                "reference": "ChIJw3qKQduJGGARWr0DnXUAjV8",
+                "types": [
+                    "tourist_attraction",
+                    "point_of_interest",
+                    "establishment"
+                ],
+                "user_ratings_total": 0
+            }
+        ],
+        "status": "OK"
+    },
+    "レインボーブリッジ": {
+        "html_attributions": [],
+        "results": [
+            {
+                "business_status": "OPERATIONAL",
+                "formatted_address": "日本、〒105-0000 東京都港区",
+                "geometry": {
+                    "location": {
+                        "lat": 35.6365639,
+                        "lng": 139.7631443
+                    },
+                    "viewport": {
+                        "northeast": {
+                            "lat": 35.63921494999999,
+                            "lng": 139.78513215
+                        },
+                        "southwest": {
+                            "lat": 35.63432874999999,
+                            "lng": 139.75059675
+                        }
+                    }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                "icon_background_color": "#7B9EB0",
+                "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+                "name": "レインボーブリッジ",
+                "photos": [
+                    {
+                        "height": 2250,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/109096590767465145989\">大畑秀雄</a>"
+                        ],
+                        "photo_reference": "AeJbb3d2F7tlioY0A8wApIML3ar0Oe4k89aDUKwmcxA6Xs6Y50vGTIN0EC-dPe507IYODjWcmqpba0FZF1vXCG4djdFQiDLBuNJNw-RHv620xpyrcmd8UD9vqmT63mnMwl9XJMz82JeLSAvyEe0kw3wXisVtUKMSxUomK_EOk50u0xJIR2t6",
+                        "width": 4000
+                    }
+                ],
+                "place_id": "ChIJbWVFlTCKGGARr5l6ox-7_CA",
+                "plus_code": {
+                    "compound_code": "JQP7+J7 港区、東京都",
+                    "global_code": "8Q7XJQP7+J7"
+                },
+                "rating": 4.5,
+                "reference": "ChIJbWVFlTCKGGARr5l6ox-7_CA",
+                "types": [
+                    "tourist_attraction",
+                    "point_of_interest",
+                    "establishment"
+                ],
+                "user_ratings_total": 2495
+            }
+        ],
+        "status": "OK"
+    },
+    "第三台場": {
+        "html_attributions": [],
+        "results": [
+            {
+                "business_status": "OPERATIONAL",
+                "formatted_address": "日本、〒135-0091 東京都港区台場１丁目10番1号",
+                "geometry": {
+                    "location": {
+                        "lat": 35.6335515,
+                        "lng": 139.7720626
+                    },
+                    "viewport": {
+                        "northeast": {
+                            "lat": 35.63575965,
+                            "lng": 139.77764575
+                        },
+                        "southwest": {
+                            "lat": 35.63281544999999,
+                            "lng": 139.77020155
+                        }
+                    }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                "icon_background_color": "#4DB546",
+                "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                "name": "台場公園",
+                "opening_hours": {
+                    "open_now": true
+                },
+                "photos": [
+                    {
+                        "height": 2268,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/107755743504318601339\">manju pandey</a>"
+                        ],
+                        "photo_reference": "AeJbb3dfVonIRbqilSlMr9tijjdWNoNKJ6_iBzbMman_BeYIzWMAdqgzkxTKkw6Yf-05yD_yh1qZ4Fhmyv45gPd8Jzv-lOQcs1J3usoEPPLqZF5qYY_LEWJb1vPTXlk0i0XpGknr_KLakkPtw9hN3CvmfKk6Sep7nH44MtnddTFC_MT_xnUc",
+                        "width": 4032
+                    }
+                ],
+                "place_id": "ChIJ9aeqHiCKGGARFh-fljrxUT0",
+                "plus_code": {
+                    "compound_code": "JQMC+CR 港区、東京都",
+                    "global_code": "8Q7XJQMC+CR"
+                },
+                "rating": 4.2,
+                "reference": "ChIJ9aeqHiCKGGARFh-fljrxUT0",
+                "types": [
+                    "park",
+                    "tourist_attraction",
+                    "point_of_interest",
+                    "establishment"
+                ],
+                "user_ratings_total": 837
+            }
+        ],
+        "status": "OK"
+    },
+    "船の科学館": {
+        "html_attributions": [],
+        "results": [
+            {
+                "business_status": "OPERATIONAL",
+                "formatted_address": "日本、〒135-8587 東京都品川区東八潮３−１",
+                "geometry": {
+                    "location": {
+                        "lat": 35.6201459,
+                        "lng": 139.7723132
+                    },
+                    "viewport": {
+                        "northeast": {
+                            "lat": 35.62150267989272,
+                            "lng": 139.7736573798927
+                        },
+                        "southwest": {
+                            "lat": 35.61880302010728,
+                            "lng": 139.7709577201073
+                        }
+                    }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+                "icon_background_color": "#13B5C7",
+                "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/museum_pinlet",
+                "name": "船の科学館",
+                "opening_hours": {
+                    "open_now": false
+                },
+                "photos": [
+                    {
+                        "height": 3024,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/115674656701711694950\">115674656701711694950</a>"
+                        ],
+                        "photo_reference": "AeJbb3ffGghffIkk1rvM46_rOPm24DBq5rgMz0hr_t7-IVj3_EY2uUK1a317AFo4rpkgrmkkStZg1nFnkwd0RJ6_TzmbmnTTv9rVpnqgiAXbulqZC0Mb0FzfIgrDvNNdLfuPc3U6Z3Mwo6eCYkpWYre_i_XozEico5lPrTQ1kGGRdz35mcGg",
+                        "width": 4032
+                    }
+                ],
+                "place_id": "ChIJxyBeEAKKGGAR6bUneD0M3gI",
+                "plus_code": {
+                    "compound_code": "JQCC+4V 品川区、東京都",
+                    "global_code": "8Q7XJQCC+4V"
+                },
+                "rating": 3.5,
+                "reference": "ChIJxyBeEAKKGGAR6bUneD0M3gI",
+                "types": [
+                    "tourist_attraction",
+                    "museum",
+                    "point_of_interest",
+                    "establishment"
+                ],
+                "user_ratings_total": 633
+            },
+            {
+                "business_status": "OPERATIONAL",
+                "formatted_address": "日本、〒135-0092 東京都品川区東八潮３−１",
+                "geometry": {
+                    "location": {
+                        "lat": 35.6200942,
+                        "lng": 139.7722172
+                    },
+                    "viewport": {
+                        "northeast": {
+                            "lat": 35.62143577989272,
+                            "lng": 139.7735737798927
+                        },
+                        "southwest": {
+                            "lat": 35.61873612010727,
+                            "lng": 139.7708741201073
+                        }
+                    }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+                "icon_background_color": "#13B5C7",
+                "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/museum_pinlet",
+                "name": "船の科学館総務部",
+                "opening_hours": {
+                    "open_now": true
+                },
+                "photos": [
+                    {
+                        "height": 1225,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/113148522677229363867\">黃小利</a>"
+                        ],
+                        "photo_reference": "AeJbb3cfwUKkvG38sZjwH-wkKg9TiwCUP0JnBx8e4kvSl6f0Zy5zaihICdvyTdp24tuc0iuBHy70swam7x0aY-K08L0_ODBbVrZTV2dwt0OqGBPNu8uBvlPhpiV0TcblWh4gPlcJDccbLgw-WwIl4DjwsBrVhr6iuR-fls2pMLXWkyfzh2c6",
+                        "width": 2048
+                    }
+                ],
+                "place_id": "ChIJ051RDgKKGGARMU8UEm7v_hI",
+                "plus_code": {
+                    "compound_code": "JQCC+3V 品川区、東京都",
+                    "global_code": "8Q7XJQCC+3V"
+                },
+                "rating": 0,
+                "reference": "ChIJ051RDgKKGGARMU8UEm7v_hI",
+                "types": [
+                    "museum",
+                    "point_of_interest",
+                    "establishment"
+                ],
+                "user_ratings_total": 0
+            },
+            {
+                "business_status": "OPERATIONAL",
+                "formatted_address": "日本、〒135-0092 東京都品川区東八潮３−１",
+                "geometry": {
+                    "location": {
+                        "lat": 35.620103,
+                        "lng": 139.772567
+                    },
+                    "viewport": {
+                        "northeast": {
+                            "lat": 35.62146917989272,
+                            "lng": 139.7739238798927
+                        },
+                        "southwest": {
+                            "lat": 35.61876952010727,
+                            "lng": 139.7712242201073
+                        }
+                    }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+                "icon_background_color": "#13B5C7",
+                "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/museum_pinlet",
+                "name": "船の科学館 別館",
+                "opening_hours": {
+                    "open_now": true
+                },
+                "photos": [
+                    {
+                        "height": 2736,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/108755200996581236557\">Kenji Nakajima</a>"
+                        ],
+                        "photo_reference": "AeJbb3dLNmdlurjphqTWlI9piQbxO3msCnmVGZBx1NDM-VX4BI4cM1FFhZSuvPE9-YbGmc3OpsTtLw0d9yemg-J6fZr5yLctf6Ay_7fAgeAVzqmjMkLO8T7jvyQlQJOM4CA-O5Jo7THkEi0CRNX8yGY60L8gpsIvCXUWQQO4V1JX3yBzdQI4",
+                        "width": 4864
+                    }
+                ],
+                "place_id": "ChIJBWIkjCCLGGARytbCC7DFMsI",
+                "plus_code": {
+                    "compound_code": "JQCF+22 品川区、東京都",
+                    "global_code": "8Q7XJQCF+22"
+                },
+                "rating": 4.1,
+                "reference": "ChIJBWIkjCCLGGARytbCC7DFMsI",
+                "types": [
+                    "museum",
+                    "point_of_interest",
+                    "establishment"
+                ],
+                "user_ratings_total": 20
+            }
+        ],
+        "status": "OK"
+    }
+}
