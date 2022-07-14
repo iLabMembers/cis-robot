@@ -1,1 +1,101 @@
-[{"address_components": [{"long_name": "\uff16", "short_name": "\uff16", "types": ["premise"]}, {"long_name": "\uff13", "short_name": "\uff13", "types": ["political", "sublocality", "sublocality_level_4"]}, {"long_name": "\uff12\u4e01\u76ee", "short_name": "\uff12\u4e01\u76ee", "types": ["political", "sublocality", "sublocality_level_3"]}, {"long_name": "\u9752\u6d77", "short_name": "\u9752\u6d77", "types": ["political", "sublocality", "sublocality_level_2"]}, {"long_name": "\u6c5f\u6771\u533a", "short_name": "\u6c5f\u6771\u533a", "types": ["locality", "political"]}, {"long_name": "\u6771\u4eac\u90fd", "short_name": "\u6771\u4eac\u90fd", "types": ["administrative_area_level_1", "political"]}, {"long_name": "\u65e5\u672c", "short_name": "JP", "types": ["country", "political"]}, {"long_name": "135-0064", "short_name": "135-0064", "types": ["postal_code"]}], "formatted_address": "\u65e5\u672c\u3001\u3012135-0064 \u6771\u4eac\u90fd\u6c5f\u6771\u533a\u9752\u6d77\uff12\u4e01\u76ee\uff13\u2212\uff16", "geometry": {"location": {"lat": 35.6193359, "lng": 139.7763995}, "location_type": "ROOFTOP", "viewport": {"northeast": {"lat": 35.6210863802915, "lng": 139.7775989802915}, "southwest": {"lat": 35.6183884197085, "lng": 139.7749010197085}}}, "partial_match": true, "place_id": "ChIJz_149P6JGGARoImMn3NlsfY", "plus_code": {"compound_code": "JQ9G+PH \u65e5\u672c\u3001\u6771\u4eac\u90fd\u6c5f\u6771\u533a", "global_code": "8Q7XJQ9G+PH"}, "types": ["establishment", "museum", "point_of_interest", "tourist_attraction"]}]
+[
+    {
+        "address_components": [
+            {
+                "long_name": "６",
+                "short_name": "６",
+                "types": [
+                    "premise"
+                ]
+            },
+            {
+                "long_name": "３",
+                "short_name": "３",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_4"
+                ]
+            },
+            {
+                "long_name": "２丁目",
+                "short_name": "２丁目",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_3"
+                ]
+            },
+            {
+                "long_name": "青海",
+                "short_name": "青海",
+                "types": [
+                    "political",
+                    "sublocality",
+                    "sublocality_level_2"
+                ]
+            },
+            {
+                "long_name": "江東区",
+                "short_name": "江東区",
+                "types": [
+                    "locality",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "東京都",
+                "short_name": "東京都",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "日本",
+                "short_name": "JP",
+                "types": [
+                    "country",
+                    "political"
+                ]
+            },
+            {
+                "long_name": "135-0064",
+                "short_name": "135-0064",
+                "types": [
+                    "postal_code"
+                ]
+            }
+        ],
+        "formatted_address": "日本、〒135-0064 東京都江東区青海２丁目３−６",
+        "geometry": {
+            "location": {
+                "lat": 35.6193359,
+                "lng": 139.7763995
+            },
+            "location_type": "ROOFTOP",
+            "viewport": {
+                "northeast": {
+                    "lat": 35.6210863802915,
+                    "lng": 139.7775989802915
+                },
+                "southwest": {
+                    "lat": 35.6183884197085,
+                    "lng": 139.7749010197085
+                }
+            }
+        },
+        "partial_match": true,
+        "place_id": "ChIJz_149P6JGGARoImMn3NlsfY",
+        "plus_code": {
+            "compound_code": "JQ9G+PH 日本、東京都江東区",
+            "global_code": "8Q7XJQ9G+PH"
+        },
+        "types": [
+            "establishment",
+            "museum",
+            "point_of_interest",
+            "tourist_attraction"
+        ]
+    }
+]

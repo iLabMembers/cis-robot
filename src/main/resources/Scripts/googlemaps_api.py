@@ -13,9 +13,9 @@ def save_json(dict,PATH):
     jsonに保存する関数
     第一引数に辞書型を入れ，第二引数にパスの名前を入れる
     """
-    with open(PATH, mode="w") as f:
-        d = json.dumps(dict)
-        f.write(d)
+    f = open(PATH, "w")
+    json.dump(dict, f, ensure_ascii=False, indent=4, sort_keys=True, separators=(',', ': '))
+
 
 args = sys.argv
 
@@ -60,7 +60,7 @@ for name_i in name_ls:
     res_place_info_dict[name_i] = place_informations
 #JSONとして出力
 PLACE_INFO_PATH = '../data/res_place_info.json'
-save_json(miraikan_result,PLACE_INFO_PATH)
+save_json(res_place_info_dict,PLACE_INFO_PATH)
 
 #================================================================================================================
 # 東京未来館から観光地まで移動方法・所要時間をを取得
