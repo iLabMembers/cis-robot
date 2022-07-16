@@ -1,6 +1,12 @@
 package jp.ac.doshisha.cis.simple_robot;
 
 import jp.atr.commu_ai.*;
+import jp.xkzm.robot.conversation.*;
+import jp.xkzm.robot.conversation.monologues.MonologueFactory;
+import jp.xkzm.robot.conversation.monologues.impls.ConclusionMonologue;
+import jp.xkzm.robot.conversation.monologues.impls.IntroductionMonologue;
+import jp.xkzm.robot.conversation.questions.ActivityQuestionSample;
+import jp.xkzm.robot.conversation.response_evaluation.ResponseEvaluation;
 
 import java.io.*;
 import java.net.URISyntaxException;
@@ -23,6 +29,9 @@ class ChatRobot implements IConversationTimerListener {
 	private static final String SERVER_PORT_KEY = "port";
 	private static final String SIGHT_DATA_PATH_KEY = "sight_data_path";
 
+	private final ConversationFlow cf;
+	private final Scanner          scanner;
+
 	private SelectionIDConnector selectionIDConnector;
 	private SightDataManager sightDataManager = null;
 
@@ -30,13 +39,15 @@ class ChatRobot implements IConversationTimerListener {
 	private Map<String, Integer> serverPortMap = new HashMap<>();
 	private String sightDataFileName = null;
 	private boolean toEndConversation = false;
-	private Scanner scanner;
+
 
 	public ChatRobot() {
 		readProperties();
 		readSightData();
 		initClients();
+
 		this.scanner = new Scanner(System.in);
+		this.cf      = ConversationFlow.getConversationFlow();
 	}
 
 	/**
@@ -99,21 +110,65 @@ class ChatRobot implements IConversationTimerListener {
 		selectionIDConnector.stop();
 
 	}
+
+	private void prepareConversationFlow() {
+
+		ConversationContent introduction = new IntroductionMonologue();
+
+		ActivityQuestionSample activeQuestionSet11 = new ActivityQuestionSample("");
+		ActivityQuestionSample activeQuestionSet12 = new ActivityQuestionSample("");
+		activeQuestionSet11.setNextConversations(
+				new ArrayList<>() {{
+					add(MonologueFactory.createSimpleMonologue("Yes", "Good!")); // The robot says line when speech is in
+					add(activeQuestionSet12);
+				}},
+				ResponseEvaluation.CONTAINS);
+
+		activeQuestionSet12.setKey("No")
+				.setNextConversations(
+						new ArrayList<>() {{
+							add(MonologueFactory.createSimpleMonologue("Yes", "You should go to a park!"));
+							add(MonologueFactory.createSimpleMonologue("No", "You should go to a museum!"));
+						}},
+						ResponseEvaluation.CONTAINS);
+
+		ActivityQuestionSample QuestionSet21 = new ActivityQuestionSample("");
+		ActivityQuestionSample QuestionSet22 = new ActivityQuestionSample("");
+		activeQuestionSet11.setNextConversations(
+				new ArrayList<>() {{
+					add(MonologueFactory.createSimpleMonologue("", "Good!"));
+					add(activeQuestionSet12);
+				}},
+				ResponseEvaluation.CONTAINS);
+
+		activeQuestionSet12.setKey("No")
+				.setNextConversations(
+						new ArrayList<>() {{
+							add(MonologueFactory.createSimpleMonologue("Yes", "You should go to a park!"));
+							add(MonologueFactory.createSimpleMonologue("Yes", "You should go to a museum!"));
+						}},
+						ResponseEvaluation.CONTAINS);
+
+
+		ConversationContent conclusion  = new ConclusionMonologue();
+
+		cf.setIntroduction(introduction)
+				.appendStartPoint(activeQuestionSet11)
+				.setConclusion(conclusion);
+
+	}
 	
 	/**
 	 * サンプルインタラクションのメインループ
 	 */
 	private void startProcess() {
+
+		prepareConversationFlow();
+
 		say("こんにちは！");
-		while(true) {
-			if(!process())
-				break;
-			try {
-				Thread.sleep(30);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
-		}
+
+		cf.startConversation();
+
 	}
 	/**
 	 * サンプルインタラクションのメインループ処理
@@ -127,25 +182,14 @@ class ChatRobot implements IConversationTimerListener {
 			toEndConversation = false;
 			return false;
 		}
-		prompt();
-		String input = this.scanner.next();
-		switch(input) {
-			case "get":
-			    selectionIDConnector.fetchData();
-				break;
-			case "intro":
-			    introduceSight();
-				break;
-			case "終了":
-			case "quit":
-				say("システムを終了します");
-				return false;
-		}
+
+
 		return true;
 	}
 
 	private void prompt() {
-	    System.out.print("[You]  ");
+		System.out.print("[You]  ");
+		String input = this.scanner.next();
 	}
 
 
@@ -227,8 +271,11 @@ class ChatRobot implements IConversationTimerListener {
 	}
 	
 	public static void main(String[] args) {
-		ChatRobot sample = new ChatRobot();
-		sample.run(true);
-		//sample.test();
+
+		ChatRobot cisRobot = new ChatRobot();
+
+		cisRobot.run(true);
+
 	}
+
 }

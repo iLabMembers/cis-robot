@@ -22,7 +22,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.6.0</version>
                 <configuration>
-                    <mainClass>jp.atr.commu_ai.CompetitionSample</mainClass>
+                    <mainClass>jp.ac.doshisha.cis.CISRobot</mainClass>
                     <cleanupDaemonThreads>false</cleanupDaemonThreads>
                 </configuration>
             </plugin>
