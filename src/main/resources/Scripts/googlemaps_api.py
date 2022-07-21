@@ -26,7 +26,7 @@ key =  args[1] # 上記で作成したAPIキーを入れる
 # コマンド：python googlemaps_api.py apiのkey
 
 # 観光地の名前リストをCSVから抽出
-SightBasic_DF = pd.read_csv("../data/20200731_日本科学未来館_SightBasic.csv")
+SightBasic_DF = pd.read_csv("../data/20220719_日本科学未来館_SightBasic.csv")
 name_ls = list(SightBasic_DF["SightName"])
 
 #インスタンス生成
@@ -38,7 +38,7 @@ for name_i in name_ls:
     geocode_result = client.geocode(name_i,language='ja' ) # 観光地の位置情報を検索
     res_geocode_dict[name_i] = geocode_result
 #JSONとして出力
-GEOCODE_PATH = '../data/res_geocode.json'
+GEOCODE_PATH = '../data/res_yosen_geocode.json'
 save_json(res_geocode_dict,GEOCODE_PATH)
 
 #================================================================================================================
@@ -59,7 +59,7 @@ for name_i in name_ls:
     place_informations = client.places(name_i,language='ja') # 観光地の位置情報を検索
     res_place_info_dict[name_i] = place_informations
 #JSONとして出力
-PLACE_INFO_PATH = '../data/res_place_info.json'
+PLACE_INFO_PATH = '../data/res_yosen_place_info.json'
 save_json(res_place_info_dict,PLACE_INFO_PATH)
 
 #================================================================================================================
@@ -73,5 +73,5 @@ for name_i in name_ls:
     place_directons= client.directions(origin=loc_miraikan, destination=trg_place_geocode,language= 'ja') 
     res_directions_info_dict[name_i] = place_directons
 #JSONとして出力
-PLACE_DIRECTIONS_PATH = '../data/res_directions_info.json'
+PLACE_DIRECTIONS_PATH = '../data/res_yosen_directions_info.json'
 save_json(res_directions_info_dict,PLACE_DIRECTIONS_PATH)

@@ -1,0 +1,614 @@
+{
+    "テレコムセンター展望室": [
+        {
+            "address_components": [
+                {
+                    "long_name": "１０",
+                    "short_name": "１０",
+                    "types": [
+                        "premise"
+                    ]
+                },
+                {
+                    "long_name": "５",
+                    "short_name": "５",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_4"
+                    ]
+                },
+                {
+                    "long_name": "２丁目",
+                    "short_name": "２丁目",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_3"
+                    ]
+                },
+                {
+                    "long_name": "青海",
+                    "short_name": "青海",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_2"
+                    ]
+                },
+                {
+                    "long_name": "江東区",
+                    "short_name": "江東区",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "東京都",
+                    "short_name": "東京都",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "日本",
+                    "short_name": "JP",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "135-0064",
+                    "short_name": "135-0064",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "日本、〒135-0064 東京都江東区青海２丁目５−１０",
+            "geometry": {
+                "location": {
+                    "lat": 35.6174613,
+                    "lng": 139.7804881
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": 35.6190134802915,
+                        "lng": 139.7816842302915
+                    },
+                    "southwest": {
+                        "lat": 35.6163155197085,
+                        "lng": 139.7789862697085
+                    }
+                }
+            },
+            "partial_match": true,
+            "place_id": "ChIJmUbGdgdiGGAR-Q6aGHfT5dU",
+            "plus_code": {
+                "compound_code": "JQ8J+X5 日本、東京都江東区",
+                "global_code": "8Q7XJQ8J+X5"
+            },
+            "types": [
+                "establishment",
+                "point_of_interest",
+                "tourist_attraction"
+            ]
+        }
+    ],
+    "マダム・タッソー東京": [
+        {
+            "address_components": [
+                {
+                    "long_name": "１",
+                    "short_name": "１",
+                    "types": [
+                        "premise"
+                    ]
+                },
+                {
+                    "long_name": "６",
+                    "short_name": "６",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_4"
+                    ]
+                },
+                {
+                    "long_name": "１丁目",
+                    "short_name": "１丁目",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_3"
+                    ]
+                },
+                {
+                    "long_name": "台場",
+                    "short_name": "台場",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_2"
+                    ]
+                },
+                {
+                    "long_name": "港区",
+                    "short_name": "港区",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "東京都",
+                    "short_name": "東京都",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "日本",
+                    "short_name": "JP",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "135-0091",
+                    "short_name": "135-0091",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "日本、〒135-0091 東京都港区台場１丁目６−１ デックス東京ビーチアイランドモール３F",
+            "geometry": {
+                "location": {
+                    "lat": 35.6292102,
+                    "lng": 139.7759112
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": 35.6307170802915,
+                        "lng": 139.7771560802915
+                    },
+                    "southwest": {
+                        "lat": 35.6280191197085,
+                        "lng": 139.7744581197085
+                    }
+                }
+            },
+            "partial_match": true,
+            "place_id": "ChIJMQVK7PaJGGARuT_EH-tFe3Y",
+            "plus_code": {
+                "compound_code": "JQHG+M9 日本、東京都港区",
+                "global_code": "8Q7XJQHG+M9"
+            },
+            "types": [
+                "establishment",
+                "point_of_interest",
+                "tourist_attraction"
+            ]
+        }
+    ],
+    "東京トリックアート迷宮館": [
+        {
+            "address_components": [
+                {
+                    "long_name": "１",
+                    "short_name": "１",
+                    "types": [
+                        "premise"
+                    ]
+                },
+                {
+                    "long_name": "６",
+                    "short_name": "６",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_4"
+                    ]
+                },
+                {
+                    "long_name": "１丁目",
+                    "short_name": "１丁目",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_3"
+                    ]
+                },
+                {
+                    "long_name": "台場",
+                    "short_name": "台場",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_2"
+                    ]
+                },
+                {
+                    "long_name": "港区",
+                    "short_name": "港区",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "東京都",
+                    "short_name": "東京都",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "日本",
+                    "short_name": "JP",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "135-0091",
+                    "short_name": "135-0091",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "日本、〒135-0091 東京都港区台場１丁目６−１ デックス東京ビーチシーサイドモール 4F",
+            "geometry": {
+                "location": {
+                    "lat": 35.6292407,
+                    "lng": 139.7761261
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": 35.6307796802915,
+                        "lng": 139.7770786802915
+                    },
+                    "southwest": {
+                        "lat": 35.6280817197085,
+                        "lng": 139.7743807197085
+                    }
+                }
+            },
+            "partial_match": true,
+            "place_id": "ChIJ-_gC6_aJGGARubvcJZXmvZk",
+            "plus_code": {
+                "compound_code": "JQHG+MF 日本、東京都港区",
+                "global_code": "8Q7XJQHG+MF"
+            },
+            "types": [
+                "amusement_park",
+                "establishment",
+                "point_of_interest",
+                "tourist_attraction"
+            ]
+        }
+    ],
+    "東京税関情報ひろば": [
+        {
+            "address_components": [
+                {
+                    "long_name": "１１",
+                    "short_name": "１１",
+                    "types": [
+                        "premise"
+                    ]
+                },
+                {
+                    "long_name": "７",
+                    "short_name": "７",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_4"
+                    ]
+                },
+                {
+                    "long_name": "２丁目",
+                    "short_name": "２丁目",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_3"
+                    ]
+                },
+                {
+                    "long_name": "青海",
+                    "short_name": "青海",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_2"
+                    ]
+                },
+                {
+                    "long_name": "江東区",
+                    "short_name": "江東区",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "東京都",
+                    "short_name": "東京都",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "日本",
+                    "short_name": "JP",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "135-8615",
+                    "short_name": "135-8615",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "日本、〒135-8615 東京都江東区青海２丁目７−１１",
+            "geometry": {
+                "location": {
+                    "lat": 35.6165352,
+                    "lng": 139.7762247
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": 35.6177345802915,
+                        "lng": 139.7774355802915
+                    },
+                    "southwest": {
+                        "lat": 35.6150366197085,
+                        "lng": 139.7747376197085
+                    }
+                }
+            },
+            "partial_match": true,
+            "place_id": "ChIJtYSnKP6JGGAR-jGJsmH9sYY",
+            "plus_code": {
+                "compound_code": "JQ8G+JF 日本、東京都江東区",
+                "global_code": "8Q7XJQ8G+JF"
+            },
+            "types": [
+                "establishment",
+                "point_of_interest"
+            ]
+        }
+    ],
+    "東京臨海広域防災公園": [
+        {
+            "address_components": [
+                {
+                    "long_name": "東京臨海広域防災公園",
+                    "short_name": "東京臨海広域防災公園",
+                    "types": [
+                        "establishment",
+                        "park",
+                        "point_of_interest",
+                        "tourist_attraction"
+                    ]
+                },
+                {
+                    "long_name": "３５",
+                    "short_name": "３５",
+                    "types": [
+                        "premise"
+                    ]
+                },
+                {
+                    "long_name": "８",
+                    "short_name": "８",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_4"
+                    ]
+                },
+                {
+                    "long_name": "３丁目",
+                    "short_name": "３丁目",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_3"
+                    ]
+                },
+                {
+                    "long_name": "有明",
+                    "short_name": "有明",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_2"
+                    ]
+                },
+                {
+                    "long_name": "江東区",
+                    "short_name": "江東区",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "東京都",
+                    "short_name": "東京都",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "日本",
+                    "short_name": "JP",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "135-0063",
+                    "short_name": "135-0063",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "日本、〒135-0063 東京都江東区有明３丁目８−３５ 東京臨海広域防災公園",
+            "geometry": {
+                "location": {
+                    "lat": 35.6349494,
+                    "lng": 139.7958032
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": 35.6362405,
+                        "lng": 139.7986264
+                    },
+                    "southwest": {
+                        "lat": 35.6332783,
+                        "lng": 139.7934436
+                    }
+                }
+            },
+            "partial_match": true,
+            "place_id": "ChIJe5erDsOJGGAR49n8pHUdAHw",
+            "plus_code": {
+                "compound_code": "JQMW+X8 日本、東京都江東区",
+                "global_code": "8Q7XJQMW+X8"
+            },
+            "types": [
+                "establishment",
+                "park",
+                "point_of_interest",
+                "tourist_attraction"
+            ]
+        }
+    ],
+    "東京都水の科学館": [
+        {
+            "address_components": [
+                {
+                    "long_name": "８",
+                    "short_name": "８",
+                    "types": [
+                        "premise"
+                    ]
+                },
+                {
+                    "long_name": "１",
+                    "short_name": "１",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_4"
+                    ]
+                },
+                {
+                    "long_name": "３丁目",
+                    "short_name": "３丁目",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_3"
+                    ]
+                },
+                {
+                    "long_name": "有明",
+                    "short_name": "有明",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_2"
+                    ]
+                },
+                {
+                    "long_name": "江東区",
+                    "short_name": "江東区",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "東京都",
+                    "short_name": "東京都",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "日本",
+                    "short_name": "JP",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "135-0063",
+                    "short_name": "135-0063",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "日本、〒135-0063 東京都江東区有明３丁目１−８",
+            "geometry": {
+                "location": {
+                    "lat": 35.6308444,
+                    "lng": 139.7854833
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": 35.6322766302915,
+                        "lng": 139.7869871302915
+                    },
+                    "southwest": {
+                        "lat": 35.6295786697085,
+                        "lng": 139.7842891697085
+                    }
+                }
+            },
+            "partial_match": true,
+            "place_id": "ChIJIfO-oO-JGGARxJYVjpssowo",
+            "plus_code": {
+                "compound_code": "JQJP+85 日本、東京都江東区",
+                "global_code": "8Q7XJQJP+85"
+            },
+            "types": [
+                "establishment",
+                "museum",
+                "point_of_interest",
+                "tourist_attraction"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,340 @@
+{
+    "テレコムセンター展望室": {
+        "html_attributions": [],
+        "results": [
+            {
+                "business_status": "OPERATIONAL",
+                "formatted_address": "日本、〒135-0064 東京都江東区青海２丁目５−１０",
+                "geometry": {
+                    "location": {
+                        "lat": 35.6174613,
+                        "lng": 139.7804881
+                    },
+                    "viewport": {
+                        "northeast": {
+                            "lat": 35.61901432989271,
+                            "lng": 139.7816850798927
+                        },
+                        "southwest": {
+                            "lat": 35.61631467010727,
+                            "lng": 139.7789854201073
+                        }
+                    }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                "icon_background_color": "#7B9EB0",
+                "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+                "name": "テレコムセンター 展望室",
+                "opening_hours": {
+                    "open_now": false
+                },
+                "photos": [
+                    {
+                        "height": 1080,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/109392018594211789742\">矢沢悠</a>"
+                        ],
+                        "photo_reference": "AeJbb3eHBoFBc-yL8PY6n71rlc9XgDBsRSzHZTClnRWvROo-J0msJvTzdb2tgdXAVu98EzYzVg1m2-POV5kqSxHEWk1YRLRqEcGA7pzXkmtwn-BjnZLr1vOclat5CABHl-0b6mPLKJ3s8BaaGjMpLrRPnrJCxcTNQKHLIre_FqN8Lvastqtq",
+                        "width": 1616
+                    }
+                ],
+                "place_id": "ChIJmUbGdgdiGGAR-Q6aGHfT5dU",
+                "plus_code": {
+                    "compound_code": "JQ8J+X5 江東区、東京都",
+                    "global_code": "8Q7XJQ8J+X5"
+                },
+                "rating": 4.2,
+                "reference": "ChIJmUbGdgdiGGAR-Q6aGHfT5dU",
+                "types": [
+                    "tourist_attraction",
+                    "point_of_interest",
+                    "establishment"
+                ],
+                "user_ratings_total": 174
+            }
+        ],
+        "status": "OK"
+    },
+    "マダム・タッソー東京": {
+        "html_attributions": [],
+        "results": [
+            {
+                "business_status": "OPERATIONAL",
+                "formatted_address": "日本、〒135-0091 東京都港区台場１丁目６−１ デックス東京ビーチアイランドモール３F",
+                "geometry": {
+                    "location": {
+                        "lat": 35.6292102,
+                        "lng": 139.7759112
+                    },
+                    "viewport": {
+                        "northeast": {
+                            "lat": 35.63071792989272,
+                            "lng": 139.7771569298927
+                        },
+                        "southwest": {
+                            "lat": 35.62801827010728,
+                            "lng": 139.7744572701073
+                        }
+                    }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                "icon_background_color": "#13B5C7",
+                "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+                "name": "マダム・タッソー東京",
+                "opening_hours": {
+                    "open_now": false
+                },
+                "photos": [
+                    {
+                        "height": 3413,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/106066153637506780241\">A Google User</a>"
+                        ],
+                        "photo_reference": "AeJbb3dqlVqjwa-ShWOPgyTOmAVFbubYs4u2QjmCfIj1RixOTfECHlDV_gwzKK615JbTC8HMZ2OxG9LMPn1UjZa6xykf2MrcXWqnIANzYb5BrtfqXNO4xBjGqyxy4c8bkjp_UR37BEKJvrSV5S-Wu_CX85M3E9smy-4JUNhhlFku_JmGNjU3",
+                        "width": 5120
+                    }
+                ],
+                "place_id": "ChIJMQVK7PaJGGARuT_EH-tFe3Y",
+                "plus_code": {
+                    "compound_code": "JQHG+M9 港区、東京都",
+                    "global_code": "8Q7XJQHG+M9"
+                },
+                "rating": 4.3,
+                "reference": "ChIJMQVK7PaJGGARuT_EH-tFe3Y",
+                "types": [
+                    "tourist_attraction",
+                    "point_of_interest",
+                    "establishment"
+                ],
+                "user_ratings_total": 767
+            }
+        ],
+        "status": "OK"
+    },
+    "東京トリックアート迷宮館": {
+        "html_attributions": [],
+        "results": [
+            {
+                "business_status": "OPERATIONAL",
+                "formatted_address": "日本、〒135-0091 東京都港区台場１丁目６−１ デックス東京ビーチシーサイドモール 4F",
+                "geometry": {
+                    "location": {
+                        "lat": 35.6292407,
+                        "lng": 139.7761261
+                    },
+                    "viewport": {
+                        "northeast": {
+                            "lat": 35.63078052989272,
+                            "lng": 139.7770795298927
+                        },
+                        "southwest": {
+                            "lat": 35.62808087010728,
+                            "lng": 139.7743798701073
+                        }
+                    }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+                "icon_background_color": "#7B9EB0",
+                "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+                "name": "東京トリックアート迷宮館",
+                "opening_hours": {
+                    "open_now": false
+                },
+                "photos": [
+                    {
+                        "height": 1332,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/105819756071318726180\">東京トリックアート迷宮館</a>"
+                        ],
+                        "photo_reference": "AeJbb3fGPhJ6HWfYtf9k21-DKj9HqQ1cILhz6hfmL7g6LnzJM97DDDoRxdwMeBO0BcFNDY5nRYOZLOCPSVtHzGI0e1nHRPsFcgvZHMHXaWqhh3C3iQqPE8mu65S2ltrmQBXEslLGWDqJ4EOBY6EC-SNZmTCZ0KOoMQ55NZyxWYH67AGRvmfv",
+                        "width": 2000
+                    }
+                ],
+                "place_id": "ChIJ-_gC6_aJGGARubvcJZXmvZk",
+                "plus_code": {
+                    "compound_code": "JQHG+MF 港区、東京都",
+                    "global_code": "8Q7XJQHG+MF"
+                },
+                "rating": 4.1,
+                "reference": "ChIJ-_gC6_aJGGARubvcJZXmvZk",
+                "types": [
+                    "amusement_park",
+                    "tourist_attraction",
+                    "point_of_interest",
+                    "establishment"
+                ],
+                "user_ratings_total": 578
+            }
+        ],
+        "status": "OK"
+    },
+    "東京税関情報ひろば": {
+        "html_attributions": [],
+        "results": [
+            {
+                "business_status": "OPERATIONAL",
+                "formatted_address": "日本、〒135-8615 東京都江東区青海２丁目７−１１",
+                "geometry": {
+                    "location": {
+                        "lat": 35.6165352,
+                        "lng": 139.7762247
+                    },
+                    "viewport": {
+                        "northeast": {
+                            "lat": 35.61773542989272,
+                            "lng": 139.7774364298928
+                        },
+                        "southwest": {
+                            "lat": 35.61503577010728,
+                            "lng": 139.7747367701073
+                        }
+                    }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/civic_building-71.png",
+                "icon_background_color": "#7B9EB0",
+                "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/civic-bldg_pinlet",
+                "name": "東京税関 情報ひろば",
+                "opening_hours": {
+                    "open_now": true
+                },
+                "photos": [
+                    {
+                        "height": 2252,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/112584534233639219001\">安藤卓也</a>"
+                        ],
+                        "photo_reference": "AeJbb3fFtQeLVxjDIVe6ksRW-eOHzAJUU3fSd-Q8DadQStW-lpURlQ6hXTT-T2Y1bHFWDWN2ksQF7a8n0wAMPP5taG7iapaTRip4SVPk9tDC3LFcRlG0YFHhv-SjWw9Ubj6nOFpOhyPcnpfTAdFoWOMsc6IRrNj40KzIo_BELY5RXX7jgvgY",
+                        "width": 4000
+                    }
+                ],
+                "place_id": "ChIJtYSnKP6JGGAR-jGJsmH9sYY",
+                "plus_code": {
+                    "compound_code": "JQ8G+JF 江東区、東京都",
+                    "global_code": "8Q7XJQ8G+JF"
+                },
+                "rating": 3.7,
+                "reference": "ChIJtYSnKP6JGGAR-jGJsmH9sYY",
+                "types": [
+                    "point_of_interest",
+                    "establishment"
+                ],
+                "user_ratings_total": 10
+            }
+        ],
+        "status": "OK"
+    },
+    "東京臨海広域防災公園": {
+        "html_attributions": [],
+        "results": [
+            {
+                "business_status": "OPERATIONAL",
+                "formatted_address": "日本、〒135-0063 東京都江東区有明３丁目８−３５",
+                "geometry": {
+                    "location": {
+                        "lat": 35.6349494,
+                        "lng": 139.7958032
+                    },
+                    "viewport": {
+                        "northeast": {
+                            "lat": 35.63772160000001,
+                            "lng": 139.8012178
+                        },
+                        "southwest": {
+                            "lat": 35.6317972,
+                            "lng": 139.7908522
+                        }
+                    }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/park-71.png",
+                "icon_background_color": "#4DB546",
+                "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/tree_pinlet",
+                "name": "東京臨海広域防災公園",
+                "opening_hours": {
+                    "open_now": true
+                },
+                "photos": [
+                    {
+                        "height": 3088,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/113365206052073533051\">Yumiko Tamura</a>"
+                        ],
+                        "photo_reference": "AeJbb3ee0QZatfop5ThPSIDKGPgfnNdrHdT3zyXApyu1wJMs0OlqaSLgbgMiaN1lv0afcbwEx7-1REpXBM5nOvPHvfoVVDPS4yVelyLoCDCmgMRAP3HYehVy2C5ooaLiVsWv4e79meyVxwdZ6qI9BNMeZ26Iz2W-1hwO6aJ6WVD_TDsePBb1",
+                        "width": 5488
+                    }
+                ],
+                "place_id": "ChIJe5erDsOJGGAR49n8pHUdAHw",
+                "plus_code": {
+                    "compound_code": "JQMW+X8 江東区、東京都",
+                    "global_code": "8Q7XJQMW+X8"
+                },
+                "rating": 4,
+                "reference": "ChIJe5erDsOJGGAR49n8pHUdAHw",
+                "types": [
+                    "tourist_attraction",
+                    "park",
+                    "point_of_interest",
+                    "establishment"
+                ],
+                "user_ratings_total": 756
+            }
+        ],
+        "status": "OK"
+    },
+    "東京都水の科学館": {
+        "html_attributions": [],
+        "results": [
+            {
+                "business_status": "OPERATIONAL",
+                "formatted_address": "日本、〒135-0063 東京都江東区有明３丁目１−８",
+                "geometry": {
+                    "location": {
+                        "lat": 35.6308444,
+                        "lng": 139.7854833
+                    },
+                    "viewport": {
+                        "northeast": {
+                            "lat": 35.63227747989273,
+                            "lng": 139.7869879798927
+                        },
+                        "southwest": {
+                            "lat": 35.62957782010728,
+                            "lng": 139.7842883201072
+                        }
+                    }
+                },
+                "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/museum-71.png",
+                "icon_background_color": "#13B5C7",
+                "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/museum_pinlet",
+                "name": "東京都水の科学館",
+                "opening_hours": {
+                    "open_now": true
+                },
+                "photos": [
+                    {
+                        "height": 2592,
+                        "html_attributions": [
+                            "<a href=\"https://maps.google.com/maps/contrib/116855322375480067208\">建作 外川</a>"
+                        ],
+                        "photo_reference": "AeJbb3fCwoNKOQoxmsYyrtCDFWOGNxhHn4X96ThlR-AsXt92vqt2hr669Z57RPVGdFFfFgi-C0Knlu-jk6jpqiekSvg8QWkt3N0XA2FZ6kpwOyQN5LvNJVgWjkMO3agTd2mIzW3P3w5djZYmv7xfG4QdtUgNxhQ4gE2fr6xGDDEwDIUIgLJv",
+                        "width": 4608
+                    }
+                ],
+                "place_id": "ChIJIfO-oO-JGGARxJYVjpssowo",
+                "plus_code": {
+                    "compound_code": "JQJP+85 江東区、東京都",
+                    "global_code": "8Q7XJQJP+85"
+                },
+                "rating": 4,
+                "reference": "ChIJIfO-oO-JGGARxJYVjpssowo",
+                "types": [
+                    "tourist_attraction",
+                    "museum",
+                    "point_of_interest",
+                    "establishment"
+                ],
+                "user_ratings_total": 778
+            }
+        ],
+        "status": "OK"
+    }
+}
