@@ -22,7 +22,7 @@ public class RobotHWControlller {
     }
 
     /**
-     * Use this method to explain sightseeing area
+     * Use this method to explain sightseeing area (before)
      * @param rbc require an instance of RobotBodyController
      * @param rec require an instance of RobotExpressionController
      */
@@ -30,6 +30,17 @@ public class RobotHWControlller {
 
         laugh(rec);
         faceToMonitor(rbc);
+
+    }
+
+    /**
+     * Use this method to explain sightseeing area (after)
+     * @param rbc require an instance of RobotBodyController
+     * @param rec require an instance of RobotExpressionController
+     */
+    public static void caseAfterSightseeingAreasDescription(RobotBodyController rbc, RobotExpressionController rec) {
+
+        faceToFace(rbc);
 
     }
 
