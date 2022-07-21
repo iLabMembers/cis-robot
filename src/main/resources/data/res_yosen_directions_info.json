@@ -1,0 +1,950 @@
+{
+    "テレコムセンター展望室": [
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 35.6196405,
+                    "lng": 139.7811022
+                },
+                "southwest": {
+                    "lat": 35.6167208,
+                    "lng": 139.7749695
+                }
+            },
+            "copyrights": "Map data ©2022",
+            "legs": [
+                {
+                    "distance": {
+                        "text": "1.0 km",
+                        "value": 998
+                    },
+                    "duration": {
+                        "text": "4分",
+                        "value": 233
+                    },
+                    "end_address": "日本、〒135-0064 東京都江東区青海２丁目５−１０",
+                    "end_location": {
+                        "lat": 35.61790939999999,
+                        "lng": 139.7801949
+                    },
+                    "start_address": "日本、〒135-0064 東京都江東区青海２丁目３−６",
+                    "start_location": {
+                        "lat": 35.6196227,
+                        "lng": 139.7761703
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "50 m",
+                                "value": 50
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 18
+                            },
+                            "end_location": {
+                                "lat": 35.6196405,
+                                "lng": 139.7757673
+                            },
+                            "html_instructions": "<b>南西</b>に進む",
+                            "polyline": {
+                                "points": "s}kxEa`ctYXp@?@?@?@]V"
+                            },
+                            "start_location": {
+                                "lat": 35.6196227,
+                                "lng": 139.7761703
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "87 m",
+                                "value": 87
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 26
+                            },
+                            "end_location": {
+                                "lat": 35.6192062,
+                                "lng": 139.7749695
+                            },
+                            "html_instructions": "<b>左折</b>して <b>都道482号</b> に向かう",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "w}kxEq}btYtA~C"
+                            },
+                            "start_location": {
+                                "lat": 35.6196405,
+                                "lng": 139.7757673
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.7 km",
+                                "value": 728
+                            },
+                            "duration": {
+                                "text": "3分",
+                                "value": 154
+                            },
+                            "end_location": {
+                                "lat": 35.6184256,
+                                "lng": 139.7808305
+                            },
+                            "html_instructions": "<b>東京湾岸警察署前（交差点）</b> を<b>左折</b>して <b>都道482号</b> に入る",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "a{kxEqxbtYLGPMJIh@_@DErAeA^Yr@i@TS|@q@ZU\\Y\\WJIJMBCBE@ADKFMDMBKBO@K@[Ac@AGAKEMCIEOMYM[Qa@AASa@g@iA]u@Q_@e@iAEIEKMYKWGKCIO[IOg@gAIM"
+                            },
+                            "start_location": {
+                                "lat": 35.6192062,
+                                "lng": 139.7749695
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.1 km",
+                                "value": 133
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 35
+                            },
+                            "end_location": {
+                                "lat": 35.61790939999999,
+                                "lng": 139.7801949
+                            },
+                            "html_instructions": "<b>テレコムセンター前（交差点）</b> で <b>U ターン</b>する",
+                            "maneuver": "uturn-right",
+                            "polyline": {
+                                "points": "evkxEe}ctYQc@RQT`@Rd@Tf@N^P\\@D@@"
+                            },
+                            "start_location": {
+                                "lat": 35.6184256,
+                                "lng": 139.7808305
+                            },
+                            "travel_mode": "DRIVING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "s}kxEa`ctYXt@]XtA~CLG\\WbDeCbDeCrAiANWTw@Bg@Ck@Qs@{C{GwAgDkAaCQc@RQh@fAx@jB@@"
+            },
+            "summary": "都道482号",
+            "warnings": [],
+            "waypoint_order": []
+        }
+    ],
+    "マダム・タッソー東京": [
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 35.6295312,
+                    "lng": 139.7761703
+                },
+                "southwest": {
+                    "lat": 35.619126,
+                    "lng": 139.7694345
+                }
+            },
+            "copyrights": "Map data ©2022",
+            "legs": [
+                {
+                    "distance": {
+                        "text": "1.8 km",
+                        "value": 1755
+                    },
+                    "duration": {
+                        "text": "5分",
+                        "value": 324
+                    },
+                    "end_address": "日本、〒135-0091 東京都港区台場１丁目６−１",
+                    "end_location": {
+                        "lat": 35.6295312,
+                        "lng": 139.7756474
+                    },
+                    "start_address": "日本、〒135-0064 東京都江東区青海２丁目３−６",
+                    "start_location": {
+                        "lat": 35.6196227,
+                        "lng": 139.7761703
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "50 m",
+                                "value": 50
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 18
+                            },
+                            "end_location": {
+                                "lat": 35.6196405,
+                                "lng": 139.7757673
+                            },
+                            "html_instructions": "<b>南西</b>に進む",
+                            "polyline": {
+                                "points": "s}kxEa`ctYXp@?@?@?@]V"
+                            },
+                            "start_location": {
+                                "lat": 35.6196227,
+                                "lng": 139.7761703
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "87 m",
+                                "value": 87
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 26
+                            },
+                            "end_location": {
+                                "lat": 35.6192062,
+                                "lng": 139.7749695
+                            },
+                            "html_instructions": "<b>左折</b>して <b>都道482号</b> に向かう",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "w}kxEq}btYtA~C"
+                            },
+                            "start_location": {
+                                "lat": 35.6196405,
+                                "lng": 139.7757673
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.8 km",
+                                "value": 791
+                            },
+                            "duration": {
+                                "text": "2分",
+                                "value": 122
+                            },
+                            "end_location": {
+                                "lat": 35.6249928,
+                                "lng": 139.770197
+                            },
+                            "html_instructions": "<b>東京湾岸警察署前（交差点）</b> を<b>右折</b>して <b>都道482号</b> に入る",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "a{kxEqxbtYNZSNWRg@^m@b@KFQNMJQLiAz@A@GBA@KFGFOLUPUNQN_@V{@p@IF]V?@q@f@UPYR[TA@s@f@ID}@j@SPEBWREBIDKH_@X_@Z]VOJaAr@KJGBEBYRCBa@XIFWPQNGBGB"
+                            },
+                            "start_location": {
+                                "lat": 35.6192062,
+                                "lng": 139.7749695
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.8 km",
+                                "value": 827
+                            },
+                            "duration": {
+                                "text": "3分",
+                                "value": 158
+                            },
+                            "end_location": {
+                                "lat": 35.6295312,
+                                "lng": 139.7756474
+                            },
+                            "html_instructions": "<b>左</b>車線を進む<div style=\"font-size:0.9em\">目的地は前方右側です</div>",
+                            "maneuver": "keep-left",
+                            "polyline": {
+                                "points": "e_mxEwzatYIJA@EBA@A?C?C?G@C?C@A@CBA@C@CDORGJEFIHGHKFWRKJIDIBG@E@G?G?EAGAIEGEKKEIKYCECEa@_ACIaAuBm@wAKUa@}@ISUi@KSSe@k@qAGM?AMUCESe@O[Se@[s@?Aq@{ASc@EIEKGMCGCGg@iAe@gAUg@Qa@"
+                            },
+                            "start_location": {
+                                "lat": 35.6249928,
+                                "lng": 139.770197
+                            },
+                            "travel_mode": "DRIVING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "s}kxEa`ctYXt@]XdBzDk@b@sBzAkBvA]TqEhD}DtCoBtA{@l@cEzCgAv@YRQNKFS@KH_@f@c@b@c@^SH]BMCQKQUO_@kBeEgEuJkEuJyBcF"
+            },
+            "summary": "都道482号",
+            "warnings": [],
+            "waypoint_order": []
+        }
+    ],
+    "東京トリックアート迷宮館": [
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 35.6296213,
+                    "lng": 139.7761703
+                },
+                "southwest": {
+                    "lat": 35.619126,
+                    "lng": 139.7694345
+                }
+            },
+            "copyrights": "Map data ©2022",
+            "legs": [
+                {
+                    "distance": {
+                        "text": "1.8 km",
+                        "value": 1773
+                    },
+                    "duration": {
+                        "text": "5分",
+                        "value": 327
+                    },
+                    "end_address": "日本、〒135-0091 東京都港区台場１丁目６−１ デックス東京ビーチシーサイドモール 4F",
+                    "end_location": {
+                        "lat": 35.6296213,
+                        "lng": 139.7758133
+                    },
+                    "start_address": "日本、〒135-0064 東京都江東区青海２丁目３−６",
+                    "start_location": {
+                        "lat": 35.6196227,
+                        "lng": 139.7761703
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "50 m",
+                                "value": 50
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 18
+                            },
+                            "end_location": {
+                                "lat": 35.6196405,
+                                "lng": 139.7757673
+                            },
+                            "html_instructions": "<b>南西</b>に進む",
+                            "polyline": {
+                                "points": "s}kxEa`ctYXp@?@?@?@]V"
+                            },
+                            "start_location": {
+                                "lat": 35.6196227,
+                                "lng": 139.7761703
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "87 m",
+                                "value": 87
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 26
+                            },
+                            "end_location": {
+                                "lat": 35.6192062,
+                                "lng": 139.7749695
+                            },
+                            "html_instructions": "<b>左折</b>して <b>都道482号</b> に向かう",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "w}kxEq}btYtA~C"
+                            },
+                            "start_location": {
+                                "lat": 35.6196405,
+                                "lng": 139.7757673
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.8 km",
+                                "value": 791
+                            },
+                            "duration": {
+                                "text": "2分",
+                                "value": 122
+                            },
+                            "end_location": {
+                                "lat": 35.6249928,
+                                "lng": 139.770197
+                            },
+                            "html_instructions": "<b>東京湾岸警察署前（交差点）</b> を<b>右折</b>して <b>都道482号</b> に入る",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "a{kxEqxbtYNZSNWRg@^m@b@KFQNMJQLiAz@A@GBA@KFGFOLUPUNQN_@V{@p@IF]V?@q@f@UPYR[TA@s@f@ID}@j@SPEBWREBIDKH_@X_@Z]VOJaAr@KJGBEBYRCBa@XIFWPQNGBGB"
+                            },
+                            "start_location": {
+                                "lat": 35.6192062,
+                                "lng": 139.7749695
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.8 km",
+                                "value": 845
+                            },
+                            "duration": {
+                                "text": "3分",
+                                "value": 161
+                            },
+                            "end_location": {
+                                "lat": 35.6296213,
+                                "lng": 139.7758133
+                            },
+                            "html_instructions": "<b>左</b>車線を進む<div style=\"font-size:0.9em\">目的地は前方右側です</div>",
+                            "maneuver": "keep-left",
+                            "polyline": {
+                                "points": "e_mxEwzatYIJA@EBA@A?C?C?G@C?C@A@CBA@C@CDORGJEFIHGHKFWRKJIDIBG@E@G?G?EAGAIEGEKKEIKYCECEa@_ACIaAuBm@wAKUa@}@ISUi@KSSe@k@qAGM?AMUCESe@O[Se@[s@?Aq@{ASc@EIEKGMCGCGg@iAe@gAUg@c@aA"
+                            },
+                            "start_location": {
+                                "lat": 35.6249928,
+                                "lng": 139.770197
+                            },
+                            "travel_mode": "DRIVING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "s}kxEa`ctYXt@]XdBzDk@b@sBzAkBvA]TqEhD}DtCoBtA{@l@cEzCgAv@YRQNKFS@KH_@f@c@b@c@^SH]BMCQKQUO_@kBeEgEuJkEuJkCcG"
+            },
+            "summary": "都道482号",
+            "warnings": [],
+            "waypoint_order": []
+        }
+    ],
+    "東京税関情報ひろば": [
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 35.6196405,
+                    "lng": 139.7761703
+                },
+                "southwest": {
+                    "lat": 35.6163414,
+                    "lng": 139.7741268
+                }
+            },
+            "copyrights": "Map data ©2022",
+            "legs": [
+                {
+                    "distance": {
+                        "text": "0.5 km",
+                        "value": 540
+                    },
+                    "duration": {
+                        "text": "2分",
+                        "value": 134
+                    },
+                    "end_address": "日本、〒135-0064 東京都江東区青海２丁目７−１１",
+                    "end_location": {
+                        "lat": 35.6163414,
+                        "lng": 139.7758631
+                    },
+                    "start_address": "日本、〒135-0064 東京都江東区青海２丁目３−６",
+                    "start_location": {
+                        "lat": 35.6196227,
+                        "lng": 139.7761703
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "50 m",
+                                "value": 50
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 18
+                            },
+                            "end_location": {
+                                "lat": 35.6196405,
+                                "lng": 139.7757673
+                            },
+                            "html_instructions": "<b>南西</b>に進む",
+                            "polyline": {
+                                "points": "s}kxEa`ctYXp@?@?@?@]V"
+                            },
+                            "start_location": {
+                                "lat": 35.6196227,
+                                "lng": 139.7761703
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.5 km",
+                                "value": 490
+                            },
+                            "duration": {
+                                "text": "2分",
+                                "value": 116
+                            },
+                            "end_location": {
+                                "lat": 35.6163414,
+                                "lng": 139.7758631
+                            },
+                            "html_instructions": "<b>左折</b>する<div style=\"font-size:0.9em\">目的地は前方左側です</div>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "w}kxEq}btYtA~CNZLXRf@LXFJFHBBDDBBBBHBH@B@F?H?DABADADCFEBCNMDEf@_@PM`@[hA}@p@g@HGFEJIHGTQd@]VSFEPOJG"
+                            },
+                            "start_location": {
+                                "lat": 35.6196405,
+                                "lng": 139.7757673
+                            },
+                            "travel_mode": "DRIVING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "s}kxEa`ctYXt@]XfC|F\\n@PP^FXE`@[nFcEnCsB"
+            },
+            "summary": "",
+            "warnings": [],
+            "waypoint_order": []
+        }
+    ],
+    "東京臨海広域防災公園": [
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 35.6360298,
+                    "lng": 139.7957117
+                },
+                "southwest": {
+                    "lat": 35.619126,
+                    "lng": 139.7710646
+                }
+            },
+            "copyrights": "Map data ©2022",
+            "legs": [
+                {
+                    "distance": {
+                        "text": "3.7 km",
+                        "value": 3696
+                    },
+                    "duration": {
+                        "text": "10分",
+                        "value": 616
+                    },
+                    "end_address": "日本、〒135-0063 東京都江東区有明３丁目８−３５ 東京臨海広域防災公園",
+                    "end_location": {
+                        "lat": 35.6348996,
+                        "lng": 139.7957117
+                    },
+                    "start_address": "日本、〒135-0064 東京都江東区青海２丁目３−６",
+                    "start_location": {
+                        "lat": 35.6196227,
+                        "lng": 139.7761703
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "50 m",
+                                "value": 50
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 18
+                            },
+                            "end_location": {
+                                "lat": 35.6196405,
+                                "lng": 139.7757673
+                            },
+                            "html_instructions": "<b>南西</b>に進む",
+                            "polyline": {
+                                "points": "s}kxEa`ctYXp@?@?@?@]V"
+                            },
+                            "start_location": {
+                                "lat": 35.6196227,
+                                "lng": 139.7761703
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "87 m",
+                                "value": 87
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 26
+                            },
+                            "end_location": {
+                                "lat": 35.6192062,
+                                "lng": 139.7749695
+                            },
+                            "html_instructions": "<b>左折</b>して <b>都道482号</b> に向かう",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "w}kxEq}btYtA~C"
+                            },
+                            "start_location": {
+                                "lat": 35.6196405,
+                                "lng": 139.7757673
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.6 km",
+                                "value": 644
+                            },
+                            "duration": {
+                                "text": "2分",
+                                "value": 101
+                            },
+                            "end_location": {
+                                "lat": 35.6238697,
+                                "lng": 139.7710646
+                            },
+                            "html_instructions": "<b>東京湾岸警察署前（交差点）</b> を<b>右折</b>して <b>都道482号</b> に入る",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "a{kxEqxbtYNZSNWRg@^m@b@KFQNMJQLiAz@A@GBA@KFGFOLUPUNQN_@V{@p@IF]V?@q@f@UPYR[TA@s@f@ID}@j@SPEBWREBIDKH_@X_@Z]VOJ"
+                            },
+                            "start_location": {
+                                "lat": 35.6192062,
+                                "lng": 139.7749695
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.9 km",
+                                "value": 889
+                            },
+                            "duration": {
+                                "text": "2分",
+                                "value": 123
+                            },
+                            "end_location": {
+                                "lat": 35.62867689999999,
+                                "lng": 139.7788155
+                            },
+                            "html_instructions": "<b>潮風公園北（交差点）</b> を<b>右折</b>する",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "exlxEc`btY]Ka@m@]g@}AyBo@_Ae@q@AAAAOQ{@sAGKKMCKCIGOUa@Wi@Wi@GMUg@Yk@IQCKAG?QIOo@yAGKEIO]Sc@Uc@EGCGUe@EKCEGO_@w@CEO_@Q_@KS]u@MYGMUg@GKCGk@oASe@IQAECE?A?AAA?C"
+                            },
+                            "start_location": {
+                                "lat": 35.6238697,
+                                "lng": 139.7710646
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.2 km",
+                                "value": 1235
+                            },
+                            "duration": {
+                                "text": "3分",
+                                "value": 162
+                            },
+                            "end_location": {
+                                "lat": 35.6348551,
+                                "lng": 139.79016
+                            },
+                            "html_instructions": "<b>湾岸道路</b>/<wbr/><b>国道357号</b> を直進する",
+                            "maneuver": "straight",
+                            "polyline": {
+                                "points": "gvmxEspctYO]IUYi@O]GOCESg@c@{@[s@o@sAc@aAGKc@aA[s@g@iA{@mBa@{@Yq@m@sA]u@ISIOUm@g@kASk@e@iAq@}AMWUc@MSg@mAm@uAKU}@qBIQQa@c@_AEMa@}@Se@MYIOEKi@mACE[q@We@KOOc@"
+                            },
+                            "start_location": {
+                                "lat": 35.62867689999999,
+                                "lng": 139.7788155
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 215
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 21
+                            },
+                            "end_location": {
+                                "lat": 35.635963,
+                                "lng": 139.7920795
+                            },
+                            "html_instructions": "<b>日比谷</b>/<wbr/><b>鉄鋼ふ頭</b>/<wbr/><b>晴海</b>/<wbr/><b>Harumi</b>/<wbr/><b>東京ビッグサイト</b> 方面の <b>東京都道484号</b> 出口を出る",
+                            "maneuver": "ramp-left",
+                            "polyline": {
+                                "points": "{|nxEowetYA@A?A?AAAAAEUa@O[?AEKAASe@EIISIOKWKUGOAAISGMA??AEIIQWk@?AGMGMEK"
+                            },
+                            "start_location": {
+                                "lat": 35.6348551,
+                                "lng": 139.79016
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.3 km",
+                                "value": 323
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 65
+                            },
+                            "end_location": {
+                                "lat": 35.6337298,
+                                "lng": 139.7941149
+                            },
+                            "html_instructions": "<b>有明中央橋北（交差点）</b> を<b>右折</b>して <b>有明中央橋</b>/<wbr/><b>都道484号</b> に入る<div style=\"font-size:0.9em\">そのまま 都道484号 を進む</div>",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "wcoxEocftYM[BA@AFGBAHGJINMLIVSNKNKPMFG@ADCBEFEPMv@m@\\YLMHGFG^[VSBC@ANK@?@AdAu@"
+                            },
+                            "start_location": {
+                                "lat": 35.635963,
+                                "lng": 139.7920795
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "32 m",
+                                "value": 32
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 18
+                            },
+                            "end_location": {
+                                "lat": 35.6338814,
+                                "lng": 139.7944207
+                            },
+                            "html_instructions": "<b>左折</b>する<div style=\"font-size:0.9em\">使用が制限されている道路</div>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "yunxEepftYACISKUCGAG"
+                            },
+                            "start_location": {
+                                "lat": 35.6337298,
+                                "lng": 139.7941149
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 221
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 82
+                            },
+                            "end_location": {
+                                "lat": 35.6348996,
+                                "lng": 139.7957117
+                            },
+                            "html_instructions": "<b>左折</b>する<div style=\"font-size:0.9em\">使用が制限されている道路</div><div style=\"font-size:0.9em\">目的地は前方左側です</div>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "wvnxEcrftYIHIFSPOJABC?C@A?C??AA?ACCEk@oAaBsDAA?A?A?EAE?CTQ"
+                            },
+                            "start_location": {
+                                "lat": 35.6338814,
+                                "lng": 139.7944207
+                            },
+                            "travel_mode": "DRIVING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "s}kxEa`ctYXt@]XdBzDk@b@sBzAkBvA]TqEhD}DtCoBtA{@l@}@r@OJ]K_AuA}AyBwAsBuAsBOYKYmAcC}@qBAYy@iBq@wAu@yAcBsDuCoGQg@gCuFwBuEcDmHyEuKy@uB_AuBc@w@uAcDeB{D_BqDgAcCcAmBOc@A@C?[k@{@oB}BeFM[BAHIh@a@fBqAtAgA|@w@|@u@xAcA[u@AGIHIFi@`@I@GKoCgGAQTQ"
+            },
+            "summary": "湾岸道路/国道357号",
+            "warnings": [],
+            "waypoint_order": []
+        }
+    ],
+    "東京都水の科学館": [
+        {
+            "bounds": {
+                "northeast": {
+                    "lat": 35.6310109,
+                    "lng": 139.7878985
+                },
+                "southwest": {
+                    "lat": 35.61948599999999,
+                    "lng": 139.7757673
+                }
+            },
+            "copyrights": "Map data ©2022",
+            "legs": [
+                {
+                    "distance": {
+                        "text": "2.0 km",
+                        "value": 2011
+                    },
+                    "duration": {
+                        "text": "8分",
+                        "value": 451
+                    },
+                    "end_address": "日本、〒135-0063 東京都江東区有明３丁目１−８",
+                    "end_location": {
+                        "lat": 35.6310109,
+                        "lng": 139.785793
+                    },
+                    "start_address": "日本、〒135-0064 東京都江東区青海２丁目３−６",
+                    "start_location": {
+                        "lat": 35.6196227,
+                        "lng": 139.7761703
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "50 m",
+                                "value": 50
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 18
+                            },
+                            "end_location": {
+                                "lat": 35.6196405,
+                                "lng": 139.7757673
+                            },
+                            "html_instructions": "<b>南西</b>に進む",
+                            "polyline": {
+                                "points": "s}kxEa`ctYXp@?@?@?@]V"
+                            },
+                            "start_location": {
+                                "lat": 35.6196227,
+                                "lng": 139.7761703
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.4 km",
+                                "value": 358
+                            },
+                            "duration": {
+                                "text": "2分",
+                                "value": 130
+                            },
+                            "end_location": {
+                                "lat": 35.6214047,
+                                "lng": 139.7790767
+                            },
+                            "html_instructions": "<b>右折</b>する",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "w}kxEq}btYe@cASc@g@iASc@M]EGWm@c@_ACGc@aAO_@MYEIQ]_@y@CIACISKc@"
+                            },
+                            "start_location": {
+                                "lat": 35.6196405,
+                                "lng": 139.7757673
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.2 km",
+                                "value": 197
+                            },
+                            "duration": {
+                                "text": "1分",
+                                "value": 41
+                            },
+                            "end_location": {
+                                "lat": 35.6230631,
+                                "lng": 139.7783225
+                            },
+                            "html_instructions": "<b>左折</b>して<b>青海縦貫線</b>に入る",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "whlxEgrctYKByAh@a@LeBl@a@NSFKF[L"
+                            },
+                            "start_location": {
+                                "lat": 35.6214047,
+                                "lng": 139.7790767
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "1.1 km",
+                                "value": 1061
+                            },
+                            "duration": {
+                                "text": "2分",
+                                "value": 149
+                            },
+                            "end_location": {
+                                "lat": 35.6284234,
+                                "lng": 139.7878985
+                            },
+                            "html_instructions": "<b>青海一丁目（交差点）</b> を<b>右折</b>して <b>青海・有明南連絡線</b> に入る (<b>首都高速湾岸線</b>/<wbr/><b>東京ビックサ仆</b>/<wbr/><b>有明</b> の表示)",
+                            "maneuver": "turn-right",
+                            "polyline": {
+                                "points": "cslxEomctYSFWk@Q_@u@}AQ_@Ym@Ue@MUOYEIWc@S_@AAQ_@IOAASe@Sc@Sc@EIEICIIOO_@AEKUGMSe@Sc@Sc@GOACk@qAKUCGEMACAE?C?Ck@oAO_@Ug@[q@KYIOIQO]Qc@EGM[]u@ISSe@Sc@Se@Sc@Sc@cA_CCGCGQa@sA{C"
+                            },
+                            "start_location": {
+                                "lat": 35.6230631,
+                                "lng": 139.7783225
+                            },
+                            "travel_mode": "DRIVING"
+                        },
+                        {
+                            "distance": {
+                                "text": "0.3 km",
+                                "value": 345
+                            },
+                            "duration": {
+                                "text": "2分",
+                                "value": 113
+                            },
+                            "end_location": {
+                                "lat": 35.6310109,
+                                "lng": 139.785793
+                            },
+                            "html_instructions": "<b>左折</b>する<div style=\"font-size:0.9em\">目的地は前方左側です</div>",
+                            "maneuver": "turn-left",
+                            "polyline": {
+                                "points": "stmxEkietYgBrAaAt@cAv@OJc@\\MHGFw@l@UPA@iBtASN"
+                            },
+                            "start_location": {
+                                "lat": 35.6284234,
+                                "lng": 139.7878985
+                            },
+                            "travel_mode": "DRIVING"
+                        }
+                    ],
+                    "traffic_speed_entry": [],
+                    "via_waypoint": []
+                }
+            ],
+            "overview_polyline": {
+                "points": "s}kxEa`ctYXt@]XaDiHaDeH[eAmFhB}Al@SFWk@gA}BoAiCaAgBaBkDmAsCsByECQmBiEsBwEuDsIUi@sA{CgBrAeClBs@h@cBpA_CfB"
+            },
+            "summary": "青海・有明南連絡線",
+            "warnings": [],
+            "waypoint_order": []
+        }
+    ]
+}
